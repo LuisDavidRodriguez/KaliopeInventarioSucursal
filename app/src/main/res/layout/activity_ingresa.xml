@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/mainRelativeLayout"
+    tools:context=".IngresaActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/imgLogoKaliope"
+        android:src="@drawable/logokaliope"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Bienvenido \n por favor inicia sesion"
+        android:id="@+id/txtBienvenido"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"
+        android:textColor="#ec268f"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Intentando conexion"
+        android:id="@+id/mainEstadoConexionTv"
+        android:textAlignment="center"
+        android:layout_gravity="end"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/colorNegro"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Usuario:"
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textSize="18sp"
+            android:id="@+id/mainUsuarioET"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Contraseña:"
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textSize="18sp"
+            android:ems="10"
+            android:id="@+id/pwCredencial"
+            android:layout_gravity="center_horizontal"
+            android:maxLength="12"
+            android:textAlignment="center"
+            />
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conectar"
+        android:id="@+id/btIngresar"
+        android:layout_gravity="center_horizontal"
+        android:enabled="true"/>
+
+
+    <TextView
+        android:id="@+id/numeroPulceraMainTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="12sp"
+        android:textColor="@color/colorNegro"
+        android:text="Info"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="®Kaliope México 2018 Version 6.2nominas"
+        android:id="@+id/textView2"
+        android:layout_gravity="center"
+
+        />
+
+
+
+
+</LinearLayout>
+

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="5dp"
+    android:paddingEnd="5dp"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    tools:context=".CodigoQRActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/Titulo"
+        android:textColor="@color/colorAccent"
+        android:text="@string/escaneoCodigo"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/codigo_qr_pasoTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/Titulo"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Movimiento EXITOSO!!!"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/subtitulo"
+        android:textColor="@color/colorNegro"
+        android:text="Escanea el codigo Qr con tu movil"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <ImageView
+        android:id="@+id/codigo_qr_codigoIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/codigoqr"
+        />
+
+
+    <TextView
+        android:id="@+id/codigo_qr_Info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="@dimen/subtitulo"
+        android:textColor="@color/colorNegro"
+        android:text="INFO"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/subtitulo"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_gravity="center_horizontal"
+        android:text="Ingresa esta clave en tu movil"
+        android:visibility="gone"
+
+        />
+
+    <TextView
+        android:id="@+id/codigo_qr_claveCelularTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/Titulo"
+        android:textColor="@color/colorNegro"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresa el codigo que te entrego tu movil"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/subtitulo"
+        android:textColor="@color/colorPrimaryDark"
+        android:visibility="gone"
+        />
+
+
+
+    <TextView
+        android:id="@+id/codigo_qr_porSeguridadTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Por seguridad para poder continuar se deben esperar:"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/subtitulo"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <TextView
+        android:id="@+id/codigo_qr_contadorTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="45sp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+
+
+    <Button
+        android:id="@+id/codigo_qr_finalizarB"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Finalizar"
+        android:textSize="@dimen/subtitulo"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorWhite"
+        />
+
+
+
+</LinearLayout>

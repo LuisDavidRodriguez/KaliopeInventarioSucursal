@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5sp"
+    tools:context=".Exito">
+
+
+    <TextView
+        android:id="@+id/exito_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/colorAccent"
+        android:text="El movimiento se creado exitosamente"
+        android:textSize="@dimen/Titulo"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        />
+
+    <!--Vamos a cambiar este mensaje desde java, para mostrar el nombre del agente-->
+    <TextView
+        android:id="@+id/exito_mensajeAlAgente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/subtitulo"
+        android:textAlignment="center"
+        android:text="por favor revisa que en tu celular el inventario se haya actualizado!!!"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+
+    <TextView
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/colorNegro"
+        android:textSize="@dimen/subtitulo"
+        android:textAlignment="center"
+        android:text="La version de tu inventario ahora debe ser:"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/exito_versionTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/colorNegro"
+        android:textSize="@dimen/Titulo"
+        android:textAlignment="center"
+        android:text="3"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/colorNegro"
+        android:textSize="@dimen/subtitulo"
+        android:textAlignment="center"
+        android:text="con un total de piezas de:"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/exito_piezasTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/colorNegro"
+        android:textSize="@dimen/Titulo"
+        android:textAlignment="center"
+        android:text="192"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LLendo a menu en:"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/subtitulo"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <TextView
+        android:id="@+id/exito_contadorTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="45sp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+
+
+
+
+
+
+</LinearLayout>

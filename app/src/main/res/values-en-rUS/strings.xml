@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">InventarioSucursal</string>
+    <string name="bienvenido">Welcome</string>
+    <string name="sistema_inventario">Inventory Sistem Kaliope Company Mexico 2019</string>
+    <string name="catalogos">Data Bases</string>
+    <string name="crear_movimiento">Create Movement</string>
+    <string name="inventario">Stock</string>
+    <string name="alta_movimiento">Create Movement</string>
+    <string name="codigo">Code:</string>
+    <string name="eliminar">Delete</string>
+    <string name="catalogo_productos">Products catalog</string>
+    <string name="catalogo_pulseras">Bracelet Catalog</string>
+    <string name="escaneoCodigo">QR Code</string>
+    <string name="vista_movimientos">All Movements</string>
+    <string name="ver_movimiento">View all movements</string>
+</resources>

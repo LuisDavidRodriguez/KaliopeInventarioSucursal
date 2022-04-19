@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Id:"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/subtitulo"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/list_movimientos_idEncabezadoTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="id del encabezado"
+            android:textColor="@color/colorNegro"
+            android:textSize="@dimen/subtitulo"
+            android:textStyle="bold"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Pulsera Agente:"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Pulsera Reviso:"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Tipo:"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center_horizontal"
+
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Piezas"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Importe"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center_horizontal"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/list_movimientos_pulseraAgenteTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_weight="1"
+            android:textColor="@color/colorNegro"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:id="@+id/list_movimientos_pulseraRevisoTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:layout_weight="1"
+            android:textColor="@color/colorNegro"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:id="@+id/list_movimientos_TipoMovimientoTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="S"
+            android:layout_weight="1"
+            android:textColor="@color/colorNegro"
+            android:gravity="center_horizontal"
+
+            />
+
+        <TextView
+            android:id="@+id/list_movimientos_cantidadTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:layout_weight="1"
+            android:textColor="@color/colorNegro"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:id="@+id/list_movimientos_importeTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="2562"
+            android:layout_weight="1"
+            android:textColor="@color/colorNegro"
+            android:gravity="center_horizontal"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Fecha y Hora:"
+            android:layout_weight="1"
+            android:textColor="@color/colorNegro"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:id="@+id/list_movimientos_fechaHoraTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="19-01-2019"
+            android:layout_weight="1"
+            android:textColor="@color/colorNegro"
+            android:gravity="center_horizontal"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

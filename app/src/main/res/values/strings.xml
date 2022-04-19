@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">InventarioSucursal</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="sistema_inventario">Sistema Inventario Kaliope Mexico 2019 ®</string>
+    <string name="crear_movimiento">Nuevo Movimiento</string>
+    <string name="catalogos">Catalogos</string>
+    <string name="inventario">Inventario</string>
+    <string name="alta_movimiento">Alta de Movimiento</string>
+    <string name="codigo">Codigo:</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="catalogo_productos">Catalogo Productos</string>
+    <string name="catalogo_pulseras">Catalogo Pulseras</string>
+    <string name="subtituloAltaMovimiento" translatable="false">Ahora alguno de tus compañeros debe revisar el movimiento.</string>
+    <string name="escaneoCodigo">Codigo QR</string>
+    <string name="vista_movimientos">Todos los Movimientos</string>
+    <string name="ver_movimiento">Ver Movimientos</string>
+
+
+</resources>

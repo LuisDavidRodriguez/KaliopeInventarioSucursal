@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingEnd="5dp"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:paddingStart="10dp"
+    tools:context="com.example.david.inventariosucursal.Inventario"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Inventario Actual"
+        android:id="@+id/txtTitulo"
+        android:layout_gravity="center_horizontal"
+        android:textSize="32dp"
+        android:textColor="#ec268f"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/inventarioExportarB"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Exportar"
+        android:background="@drawable/mi_boton"
+        android:textColor="@color/colorWhite"
+        android:drawableLeft="@drawable/icono_exportar"
+        android:paddingLeft="0dp"
+        android:paddingRight="10dp"
+        android:layout_alignTop="@+id/inventarioImprimirB"
+        android:layout_alignEnd="@+id/textView3" />
+
+    <Button
+        android:id="@+id/inventarioImprimirB"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Imprimir"
+        android:elegantTextHeight="false"
+        android:paddingLeft="0dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/mi_boton"
+        android:textColor="@color/colorWhite"
+        android:contextClickable="true"
+        android:drawableLeft="@drawable/icono_impresora"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <ListView
+        android:id="@+id/inventarioLV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitulo"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp"
+        android:layout_above="@+id/textView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOTAL DE EXISTENCIAS: "
+        android:id="@+id/textView3"
+        android:layout_marginBottom="45dp"
+        android:layout_above="@+id/inventarioExportarB"
+        android:layout_alignParentStart="true"
+        android:textSize="@dimen/normal"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IMPORTE DE LAS EXISTENCIAS: "
+        android:id="@+id/textView4"
+        android:layout_above="@+id/inventarioExportarB"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"
+        android:textSize="@dimen/normal"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/inventarioExistenciasTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_alignEnd="@+id/inventarioLV"
+        android:textSize="@dimen/normal"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/inventarioImporteTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignParentEnd="true"
+        android:textSize="@dimen/normal"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>

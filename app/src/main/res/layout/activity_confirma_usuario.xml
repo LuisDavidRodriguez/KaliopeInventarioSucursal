@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="5dp"
+    android:paddingEnd="5dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:id="@+id/confirma_usuario_Layout"
+    tools:context=".ConfirmaUsuarioActivity">
+
+
+    <TextView
+        android:id="@+id/confirma_usuario_tituloTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/Titulo"
+        android:textColor="@color/colorAccent"
+        android:text="Confirmacion de Usuario"
+        />
+
+
+    <TextView
+        android:id="@+id/confirma_usuario_pasoTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/Titulo"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Selecciona que tipo de movimiento es:"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorNegro"
+        android:textSize="@dimen/normal"
+        />
+
+
+
+    <CheckBox
+        android:id="@+id/confirma_usuario_entradaCB"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Entrada de Mercancia a mi Auto"
+        android:textSize="@dimen/subtitulo"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <CheckBox
+        android:id="@+id/confirma_usuario_salidaCB"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Salida de mercancia de mi Auto"
+        android:textSize="@dimen/subtitulo"        
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="20dp"
+        >
+
+        <ImageView
+            android:id="@+id/confirma_usuario_carritoTV"
+            android:layout_width="73dp"
+            android:layout_height="94dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/carritoropa" />
+
+        <ImageView
+            android:id="@+id/confirma_usuario_almacenIV"
+            android:layout_width="141dp"
+            android:layout_height="101dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+
+            android:src="@drawable/almacen" />
+
+
+        <ImageView
+            android:id="@+id/confirma_usuario_carroIV"
+            android:layout_width="115dp"
+            android:layout_height="105dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/carrokaliope" />
+
+        <ImageView
+            android:id="@+id/confirma_usuario_flechaIV"
+            android:layout_width="103dp"
+            android:layout_height="79dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/flechaentradasalida" />
+
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/confirma_usuario_instruccionesPulseraTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ahora es necesario que firmes el movimiento con tu contraseña de usuario, esto asignara este movimiento solo a tu inventario"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorNegro"
+        android:textSize="@dimen/subtitulo"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/confirma_usuario_passwordET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="11"
+        android:hint="Contraseña Usuario"
+        android:inputType="numberPassword"
+        android:textAlignment="center"
+        />
+
+
+    <Button
+        android:id="@+id/confirma_usuario_continuarB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:textAlignment="center"
+        android:text="Continuar -->"
+        android:visibility="gone"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPrimaryDark"
+        />
+
+
+
+
+
+</LinearLayout>

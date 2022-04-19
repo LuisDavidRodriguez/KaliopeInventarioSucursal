@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:paddingStart="5dp"
+    android:paddingEnd="5dp"
+    >
+
+    <TextView
+        android:id="@+id/list_five_itemsCode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Codigo"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorNegro"
+        />
+
+    <TextView
+        android:id="@+id/list_five_itemsPrecio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Precio"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorNegro"
+        />
+
+    <TextView
+        android:id="@+id/list_five_itemsVendedora"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="vende"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorNegro"
+        />
+
+    <TextView
+        android:id="@+id/list_five_itemsSocia"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="soci"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorNegro"
+        />
+
+    <TextView
+        android:id="@+id/list_five_itemsEmpresaria"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="empr"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorNegro"
+        />
+
+</LinearLayout>
