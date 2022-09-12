@@ -2,4 +2,5 @@
 This android app is for and special devise which include an 1D barcode scaner moved from my repository BitBucket
 
 
-## I just moved this repository. I am still creating this readme file.
+## Android App Warehouse inventory management.
+This app runs on an android device but the device has the peculiarity that includes a 2D Code Bar Scanner, I look for the appropriate characteristics device and ordered all of them from china, asking for the SDK from the manufacturer I was able to operate the Bar Code scanner, outfitting each company's warehouse with one of this device the workers are now allowed to perform goods-movements from the warehouse inventory to its worker inventory, scanning the Barcode of each product, and then singing that movement with its unique worker code. When a movement is signed and finalized it is uploaded to the server, the server knows to whom that movement belonged and affects the inventory worker, incrementing or decrementing the stock of each product, then uploading the new inventory version to the worker’s android terminal connected to the internet. In an old version of this app, the device showed on the screen an QR Code that the worker scan with its terminal, the terminal validates whether the QR corresponds to the employee and to the terminal which it was being scanned with.
